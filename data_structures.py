@@ -10,7 +10,7 @@ def filter_and_sort_evens(numbers):
 def count_character_frequency(text):
     frequency = {}
         
-    for character in text:
+    for character in text.lower():
         if character in frequency:
             frequency[character ]+=1
         else:
